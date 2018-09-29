@@ -1,24 +1,26 @@
-#file-loader TypeScript example
+file-loader TypeScript example
+======
 
 A minimal example project showing how to get webpack file-loader working with TypeScript.
 
-##To run
+To run
+------
 
 ```
 $ npm install
 $ npm run build
-
 ```
 
-##TLDR
+TLDR
+------
 
-*typings/custom.ts*
+**typings/custom.ts**
 
 ```
 declare module "*.png"
 ```
 
-*src/Card.tsc*
+**src/Card.tsc**
 
 ```
 import * as Emoji from './slightly-smiling-face.png';
